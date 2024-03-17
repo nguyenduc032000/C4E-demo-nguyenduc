@@ -1,0 +1,152 @@
+/* Thiết lập giá trị mặc định cho các phần tử */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Màu nền của body là đen */
+body {
+  background-color:rgb(6,18,30);
+  font-family: -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+.header-container {
+  margin: 0 20px; /* Khoảng cách giữa các menu item */
+  display: flex;
+  align-items: center;
+}
+.menu2 {
+  display: flex;
+}
+
+.menu2 a {
+  color: white;
+  text-decoration: none;
+  margin-right: 50px; /* Thêm khoảng cách bên phải giữa các NavLink */
+}
+
+.logo {
+  margin-right: 20px; /* Điều chỉnh khoảng cách giữa logo và menu nếu cần */
+}
+
+.logo img {
+  width: 150px; /* Điều chỉnh kích thước của logo */
+}
+.menu2 {
+  font-size: 30px;
+  padding: 15px;
+}
+
+.menu {
+  margin-bottom: 30px;
+  background-color: rgb(9,28,45);
+  display: flex;
+  margin-left: 16px; /* Tạo khoảng trống bên trái */
+  margin-right: 17px; /* Tạo khoảng trống bên phải */
+  padding: 15px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px; /* Điều chỉnh kích thước chữ */
+  margin-right: 30px; /* Điều chỉnh khoảng cách giữa các menu item nếu cần */
+}
+
+.menu a:hover {
+  /* Điều chỉnh CSS khi di chuột qua các menu item nếu cần */
+}
+.menutong h1 {
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.mobile-loaiphim .field .select select {
+  width: 100%;
+  min-width: 250px;
+}
+
+.mobile-loaiphim {
+  margin: 0 12px; /* Khoảng cách giữa các menu item */
+}
+
+.select select {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.mobile-loaiphim .select select {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px; /* Kích thước chữ */
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-item {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative; /* Đặt vị trí tương đối */
+}
+
+.product-image {
+  margin-left: 10px; /* Đặt khoảng cách bên trái là 10% chiều rộng của sản phẩm */
+  margin-right: 10px; /* Đặt khoảng cách bên phải là 10% chiều rộng của sản phẩm */
+  width: 347px; /* 100% chiều rộng của phần tử cha */
+  height: 512px; /* Tự động tính toán chiều cao dựa trên chiều rộng */
+}
+
+.product-info {
+  position: absolute; /* Đặt vị trí tuyệt đối */
+  bottom: 0; /* Đặt phần dưới của văn bản ở phía dưới của phần tử cha */
+  left: 0; /* Đặt phần trái của văn bản ở phía trái của phần tử cha */
+  right: 0; /* Đặt phần phải của văn bản ở phía phải của phần tử cha */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.product-info p {
+  margin-bottom: 0px; /* Đặt khoảng cách 5px dưới mỗi đoạn văn bản */
+}
+.menutong {
+  width: 85%; /* Điều chỉnh chiều rộng của phần tử chứa */
+  margin: 0 auto; /* Căn giữa theo chiều ngang */
+  padding: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
